@@ -1,0 +1,67 @@
+/* Basic CSS styling */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.checkout-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.payment-method,
+.card-details,
+.total-amount {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* You can add more styling as needed */
+nav {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 20px;
+    justify-content: space-between;
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.list {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
